@@ -5,21 +5,18 @@
   "main": "bundle.js",
   "dependencies": {
     "moment": "^2.20.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
     "webpack": "^3.10.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1"
+  },
   "scripts": {
     "build": "webpack -p",
     "watch": "webpack --watch"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/abishekaditya/webpack_basics.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/abishekaditya/webpack_basics/issues"
-  },
-  "homepage": "https://github.com/abishekaditya/webpack_basics#readme"
+  }
 }
